@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+   <div class="container">
+        <h1>Canadian Tax Calculator</h1>
+        <lable>Tax calculator $:
+            <input id='cost' type='number' placeholder='cost...'></input>
+            <select id="leave" onchange="leaveChange()">
+                <option>select...</option>
+                <option value="ont">Ontario</option>
+                <option value="que">Qubecic</option>
+                <option value="alb">Alberta</option>
+                <option value="sas">Saskatchewan</option>
+              </select>
+              <p>Total + tax :</p>
+              <span id='totalCost'><span></span>
+        </lable>
+   </div> 
+   
+    <!-- scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
